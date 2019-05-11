@@ -27,7 +27,6 @@ Client.on("message", message => {
   }
     if (message.content.startsWith(prefix + '1')) 
     Client.user.setStatus(argresult);
-  }
 });
  
 var x1 = "1"
